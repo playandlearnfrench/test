@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+  <div style='width:650px;border:1px solid black'>
+	<svg width="650" height="450" viewBox="0 0 800 600" version="1.1"
+		 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		
+	  <polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="311 325,320 299,330 325,358 325,337 340,343 367,320 351,297 367,302 340,282 325" /> 
+	  <text x="313" y="342" font-family="sans-serif" font-size="20px" fill="black">1</text>
+	  
+		<polygon stroke="black" fill="#00cc00" stroke-linecap="round" stroke-width="1" points="246 234, 320 234,320 298,311 325" />
+		<text x="290" y="270" font-family="sans-serif" font-size="20px" fill="black">2</text>
+		
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 234,396 235,330 325,320 298" />	
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="396 235,419 304,357 326,330 325" /> 	
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="419 304,445 375,337 340,356 326" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="445 375,384 423,344 368,337 340" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="384 423,320 468,320 351,343 367" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 468,256 423,297 367,320 351" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="256 423,200 377,302 340,297 367" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="200 377,222 307,282 325,302 340" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="222 307,246 234,311 325,282 325" />
+		
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 234,320 144,246 234" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 234,320 144,396 235" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="396 235,499 279,419 304" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="419 304,445 375,499 279" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="445 375,440 495,384 423" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="384 423,440 495,320 468" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 468,206 492,256 423" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="200 377,256 423,206 492" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="200 377,137 280,222 307" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="222 307,246 234,137 280" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="246 234,320 144,320 8" />	
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="320 8,320 144,396 235" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="396 235,633 239,499 279" />     
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="499 279,445 375,633 239" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="445 375,440 495,520 602" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="440 495,520 602,320 468" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="206 492,320 468,127 602" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="206 492,127 602,200 377" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="200 377,137 280,8 240" />
+		<polygon stroke="black" fill="white" stroke-linecap="round" stroke-width="1" points="137 280,8 240,246 234" />	
+		
+		<rect x="550" y="430" width="30" height="30" stroke="black" fill="white" stroke-width="2" />
+		<text x="600" y="450" font-family="sans-serif" font-size="20px" fill="black">Holiday/Weekend</text>
+		
+		<rect x="550" y="470" width="30" height="30" stroke="black" fill="green" stroke-width="2" />
+		<text x="600" y="490" font-family="sans-serif" font-size="20px" fill="black">No Error Day</text>
+		
+		<rect x="550" y="510" width="30" height="30" stroke="black" fill="yellow" stroke-width="2" />
+		<text x="600" y="530" font-family="sans-serif" font-size="20px" fill="black">Day with internal errors</text>
+		
+		<rect x="550" y="550" width="30" height="30" stroke="black" fill="red" stroke-width="2" />		
+		<text x="600" y="570" font-family="sans-serif" font-size="20px" fill="black">Day with external errors</text>
+	</svg>
+</div>
+</body>
+</html>
